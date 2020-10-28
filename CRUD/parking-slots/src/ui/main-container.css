@@ -1,0 +1,25 @@
+.ContentBox {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+h2{
+    margin: 20px;
+}
+header {
+    margin: 20px;
+    display: flex;
+}
+.FilterBY{
+    flex: 1;
+}
+.SearchBY{
+    flex: 1;
+}
+input {
+    margin: 0 10px;
+}
+.AddVehicle {
+    margin: 20px;
+    display: flex;
+}

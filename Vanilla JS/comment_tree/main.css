@@ -1,0 +1,54 @@
+#root {
+    border: 1px solid #d2d2d2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 3px #d2d2d2;
+}
+.postComment{
+    padding: 10px 20px;
+}
+textarea {
+    display: block;
+}
+.postButton, .replyPost {
+    margin: 5px 0;
+    border: 1px solid #00118e;
+    background-color: white;
+    border-radius: 5px;
+    color: #00118e;
+}
+.comment{
+    margin: 0 20px;
+    padding: 10px 10px;
+    border-left: 1px solid #dedede;
+}
+
+
+.likes {
+    border: none;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reply, .replyCancel {
+    border: none;
+    background-color: white;
+    color: #00118e;
+    cursor: pointer;
+}
+.replyPost{
+    margin: 0 10px;
+}
+
+.userId {
+    color: grey;
+}
+
+button {
+    margin-right: 10px;
+}
+button:focus {
+    border: none;
+}

@@ -1,0 +1,44 @@
+{
+    "id": 100,
+    "type": "module",
+    "children": [
+        {
+            "id": 200,
+            "type": "page",
+            "children": [
+                {
+                    "id": 201,
+                    "type": "text",
+                    "description": "text 1"
+                },
+                {
+                    "id": 202,
+                    "type": "text",
+                    "description": "text 2"
+                }
+            ]
+        },
+        {
+            "id": 300,
+            "type": "text",
+            "children": [
+                {
+                    "id": 400,
+                    "type": "page",
+                    "children": [
+                        {
+                            "id": 401,
+                            "type": "text",
+                            "description": "text 1"
+                        },
+                        {
+                            "id": 402,
+                            "type": "text",
+                            "description": "text 2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
